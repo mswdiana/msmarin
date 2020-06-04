@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/animations.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://rawcdn.githack.com/zenorocha/clipboard.js/v2.0.4/dist/clipboard.min.js"></script>
+    <script src="https://kit.fontawesome.com/e8d575de81.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./assets/js/alerts.js"></script>
+    <title>Contacts</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand" href="index.html"><b>MS. MARIN</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" title="Menu">
+            <i class="navbar-toggler-bars fas fa-bars"></i>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="book-an-appointment.html">Appointment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="activities.html">Activities</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resources<div class="dropdown-caret"><i class="fas fa-caret-down"></i></div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="resources-national.html">National</a>
+                        <a class="dropdown-item" href="resources-state.html">State</a>
+                        <a class="dropdown-item" href="resources-local.html">Local</a>
+                        <a class="dropdown-item" href="resources-school.html">School</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="main-container">
+        <div class="box nobgc">
+            <div class="page-title" id="top">Contacts</div>
+            <div class="contacts">
+                <div class="contact">
+                    <div>
+                        <h2 class="contact-title">Diana Marin</h2>
+                        <div class="email"><i class="fas fa-envelope"></i><a class="btn btn-link" href="mailto:diana.marin@fresnounified.org"  title="Email Diana Marin">diana.marin@fresnounified.org</a></div>
+                        <div class="phone"><i class="fas fa-phone-alt"></i><a class="btn btn-link" href="tel:(559) 457-2930" title="Call Diana Marin">(559) 457-2930</a></div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div>
+                        <h2 class="contact-title">Hidalgo Elementary School</h2>
+                        <div class="phone"><i class="fas fa-phone-alt"></i><a class="btn btn-link" href="tel:(559) 457-2930">(559) 457-2930</a></div>
+                        <div class="website"><i class="fas fa-globe"></i><a class="btn btn-link" href="https://www.fresnounified.org/schools/hidalgo/" target="_blank" title="Visit Hidalgo Elementary School">www.fresnounified.org/schools/hidalgo</a></div>
+                        <div class="website"><i class="fas fa-map-marked-alt"></i><a class="btn btn-link" href="https://goo.gl/maps/haPcUJk9PNkyFaoy5" target="_blank" title="View Hidalgo Elementary School on Google Map">3550 E. Thomas Ave., Fresno, CA 93702</a></div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div>
+                        <h2 class="contact-title">Fresno Police Department</h2>
+                        <div class="phone"><i class="fas fa-phone-alt"></i><a class="btn btn-link" href="tel:911" title="Call 911">911</a></div>
+                        <div class="phone"><i class="fas fa-phone-alt"></i><a class="btn btn-link" href="tel:(559) 621-7000" title="Call Fresno Police Department Non-Emergency">(559) 621-7000</a> <span class="additional-info" title="Non-Emergency Phone Number">(Non-Emergency)</span></div>
+                        <div class="phone"><i class="fas fa-phone-alt"></i><a class="btn btn-link" href="tel:(559) 621-6300" title="Call Fresno Police Southeast Department">(559) 621-6300</a> <span class="additional-info" title="Southeast Department Phone Number">(Southeast Dept.)</span></div>
+                        <div class="website"><i class="fas fa-globe"></i><a class="btn btn-link" href="https://www.fresno.gov/" target="_blank" title="Visit Fresno Police Department">www.fresno.gov</a></div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div>
+                        <h2 class="contact-title">FUSD COVID-19</h2>
+                        <div class="phone"><i class="fas fa-phone-alt"></i><a class="btn btn-link" href="tel:(559) 457-3395"  title="Call FUSD COVID-19">(559) 457-3395</a></div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div>
+                        <h2 class="contact-title">Crisis Text Line</h2>
+                        <div class="text"><i class="fas fa-comment-dots"></i><a class="btn btn-link" href="sms:741741&body=HOME" title="Text 'HOME' to 741741">741741</a></div>
+                        <div class="website"><i class="fas fa-globe"></i><a class="btn btn-link" href="https://www.crisistextline.org/" target="_blank" title="Visit Crisis Text Line">www.crisistextline.org</a></div>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div>
+                        <h2 class="contact-title">National Suicide Prevention</h2>
+                        <div class="phone"><i class="fas fa-phone-alt"></i><a class="btn btn-link" href="tel:(800) 273-8255" title="Call National Suicide Prevention">(800) 273-8255</a></div>
+                        <div class="website"><i class="fas fa-globe"></i><a class="btn btn-link" href="https://www.suicidepreventionlifeline.org/" target="_blank" title="Visit National Suicide Prevention">www.suicidepreventionlifeline.org</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

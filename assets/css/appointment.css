@@ -1,0 +1,193 @@
+.appointment-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.appointment-form {
+    background-color: #ECECEC;
+    border-radius: 8px;
+    padding: 2rem 4rem;
+    position: relative;
+    box-shadow: 5px 10px 7px #1b262ca0, 6px 11px 12px #1b262ca0;
+    height: auto;
+    width: auto;
+}
+
+.appointment-container .appointment-form .widget-form {
+    margin-bottom: 3em;
+}
+
+.appointment-container .appointment-form .alternative-link {
+    color: #1B262C;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.appointment-container .appointment-form .alternative-link span {
+    padding-right: 0.3rem;
+}
+
+.appointment-container .appointment-form .alternative-link a {
+    vertical-align: baseline;
+}
+
+.loading {
+    color: #0F4C81;
+    width: 3rem;
+    height: 3rem;
+}
+
+/* loading animation */
+/* .loader-container.loader-disabled {
+    display: none;
+}
+
+.loader-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.loader,
+.loader:before,
+.loader:after {
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation: load7 1.8s infinite ease-in-out;
+    animation: load7 1.8s infinite ease-in-out;
+}
+.loader {
+    color: #DD4A47;
+    font-size: 8px;
+    position: relative;
+    text-indent: -9999em;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+    content: '';
+    position: absolute;
+    top: 0;
+}
+.loader:before {
+    left: -3.5em;
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+.loader:after {
+    left: 3.5em;
+} */
+
+@-webkit-keyframes load7 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40% {
+        box-shadow: 0 2.5em 0 0;
+    }
+}
+@keyframes load7 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 2.5em 0 -1.3em;
+    }
+    40% {
+        box-shadow: 0 2.5em 0 0;
+    }
+}
+
+/* WIDGET MOD */
+.widget_dd_section_heading.widget_dd_section_heading_with::before,
+.widget_dd_section_heading.widget_dd_section_heading_service::before,
+.widget_dd_section_heading.widget_dd_section_heading_calendar::before,
+.widget_dd_section_heading.widget_dd_section_heading_clock::before {
+    color: #0F4C81 !important;
+}
+
+.widget_dd_section_heading.widget_dd_section_heading_with,
+.widget_dd_section_heading.widget_dd_section_heading_service,
+.widget_dd_section_heading.widget_dd_section_heading_calendar,
+.widget_dd_section_heading.widget_dd_section_heading_clock {
+    color: #1B262C !important;   
+}
+
+.widget_dd_selectbx {
+    text-transform: capitalize;
+}
+
+div.widget_dd_styling::after {
+    color: #0F4C81 !important;
+    border-top-color: #0F4C81 !important;
+}
+
+.widget_cont_v2 .jBA-tblwrap .jBA-slotarea-container .slotval a:hover {
+    background-color: transparent !important;
+}
+
+.fa.fa-spinner {
+    color: #DD4A47 !important;
+}
+
+.widget_dd_section_heading.widget_dd_section_heading_with .resetall_widget_dd .resetall_widget_dd_butt {
+    color: #323940 !important;
+    font-size: 0.75rem !important;
+    letter-spacing: 0.4px;
+}
+
+.widget_dd_section_heading.widget_dd_section_heading_with .resetall_widget_dd .resetall_widget_dd_butt:hover {
+    color: #0F4C81 !important;
+}
+
+.widget_dd_section_heading.widget_dd_section_heading_with .resetall_widget_dd {
+    right: -15px !important;
+}
+
+.resetall_widget_dd a::after {
+    content: "" !important;
+    color: #DD4A47 !important;
+    margin-left: 9.3px;
+    margin-top: -7px !important;
+    font-size: 8px;
+}
+
+.resetall_widget_dd a:hover::after {
+    cursor: pointer;
+    color: #ED6663 !important;
+    left: 50% !important;
+    margin-left: 9.3px;
+    margin-top: -7px !important;
+}
+
+.widget_cont_v2 .jBA-tblwrap .jBA-slotarea-container .slotval a {
+    padding: 0 8px;
+}
+
+.widget_cont_v2 .jBA-tblwrap .jBA-slotarea-container .slotval a::after {
+    background-color: transparent !important;
+}
+
+.show-more-slots-rowbot.selectably-visible-viewmore a {
+    color: #DD4A47 !important;
+}
+
+.show-more-slots-rowbot.selectably-visible-viewmore a:hover {
+    text-decoration: none;
+}

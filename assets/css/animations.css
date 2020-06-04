@@ -1,0 +1,77 @@
+/* NAVBAR */
+.active>.nav-link:after,
+.nav-item.dropdown.show>.nav-link:after {
+    /* border-bottom: 2px solid #DD4A47; */
+    background: none repeat scroll 0 0 transparent !important;
+    bottom: 0 !important;
+    content: "" !important;
+    display: block !important;
+    height: 2px !important;
+    left: 0 !important;
+    position: absolute !important;
+    background: #DD4A47 !important;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s !important;
+    width: 100% !important;
+}
+
+.nav-link {
+    border-bottom: 2px solid transparent;
+    transition: ease-in-out 100ms border-bottom;
+}
+
+/* .nav-link:hover {
+    border-bottom: 2px solid #DD4A47;
+    transition: ease-in-out 100ms border-bottom;
+} */
+
+/* LINKS */
+a {
+    display: inline-block !important;
+    position: relative !important;
+}
+
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #DD4A47;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+/* ACTIVITIES CARDS */
+.activity-link .activity-card .activity-img-container .activity-img {
+    transform: scale(1);
+    transition: ease-in-out 50ms transform;
+}
+
+.activity-link:hover>.activity-card .activity-img-container .activity-img {
+    /* border: 2px solid #DD4A47; */
+    transform: scale(1.2);
+    transition: ease-in-out 300ms transform;
+}
+
+.activity-link:hover:after {
+    height: 5px !important;
+}
+
+/* ICONS */
+/* 
+.icon.larrow {
+    padding-left: 0.5em;
+    transition: ease-in 100ms padding;
+}
+
+.btn.btn-link:hover > .icon.larrow {
+    padding-left: 1em;
+    transition: ease-in 100ms padding;
+} */

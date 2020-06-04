@@ -1,0 +1,66 @@
+.box.nobgc {
+    background-color: transparent;
+    margin: 0 4em 4em 4em;
+    padding: 0;
+}
+
+.bio-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profile-img {
+    background-image: url("../img/headshots/headshot.jpg");
+    background-position: 0 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    width: 25em;
+    border-radius: 50%;
+    margin-right: 7em;
+    margin-left: 4em;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: 0;
+    flex-grow: 1;
+    width: auto;
+}
+
+.b-header {
+    margin-bottom: 1.5em;
+}
+
+.b-header .full-name {
+    color: #FFA41B;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0;
+}
+
+.b-header .job-title {
+    color: #F2A365;
+    font-weight: 200;
+    font-size: 1.3em !important;
+    line-height: 1em;
+    margin-top: 0.2em;
+}
+
+.b-body{
+    flex-grow: 1;
+    letter-spacing: 0.9px;
+    line-height: 170%;
+    margin-bottom: 1.8em;
+}
+
+.b-footer {
+    letter-spacing: 0.7px;
+    line-height: 160%;
+    margin: 0;
+}

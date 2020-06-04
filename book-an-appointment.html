@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./assets/css/main.css"/>
+    <link rel="stylesheet" href="./assets/css/animations.css"/>
+    <link rel="stylesheet" href="./assets/css/media.css"/>
+    <link rel="stylesheet" href="./assets/css/appointment.css"/>
+    <link href="https://www.yellowschedule.com/utils/widget/ys-style.css" rel="stylesheet" type="text/css"/> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://rawcdn.githack.com/zenorocha/clipboard.js/v2.0.4/dist/clipboard.min.js"></script>
+    <script src="https://kit.fontawesome.com/e8d575de81.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://www.yellowschedule.com/_javascript/dm.booking.min.js"></script>
+    <script src="./assets/js/appointment.js"></script>
+    <script src="./assets/js/alerts.js"></script>
+    <title>Book an appointment</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand" href="index.html"><b>MS. MARIN</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" title="Menu">
+            <i class="navbar-toggler-bars fas fa-bars"></i>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="book-an-appointment.html">Appointment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="activities.html">Activities</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resources<div class="dropdown-caret"><i class="fas fa-caret-down"></i></div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="resources-national.html">National</a>
+                        <a class="dropdown-item" href="resources-state.html">State</a>
+                        <a class="dropdown-item" href="resources-local.html">Local</a>
+                        <a class="dropdown-item" href="resources-school.html">School</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="appointment main-container">
+        <div class="box nobgc">
+            <div class="page-title" id="top">Appointment</div>
+            <div class="appointment-container">
+                <div class="appointment-form">
+                    <!-- <div class="loader-container">
+                        <div class="loader">Loading...</div>
+                    </div> -->
+                    <div class="d-flex justify-content-center loader-container">
+                        <div class="spinner-grow loading" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                    <div class="widget-form">
+                        <div id="bookingAvailabilityContainer"></div>
+                    </div>
+                    <div class="alternative-link">
+                        <div>
+                            <a class="btn btn-link" href="https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.yellowschedule.com%2Fbooking%2Ffresnounifiedstudentsupport%257Cdiana_marin&data=02%7C01%7CDiana.Marin%40fresnounified.org%7Cdbcb2ea3cab44013215508d7fe95d321%7C74c9008303c6453a801c9251cdd17eb8%7C0%7C0%7C637257791759323545&sdata=k2Tr9KcrxXeAqoPL5xq8VVzBd5TWd4U6b5emmaLvO24%3D&reserved=0" title="Click to book an appointment">Not working?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

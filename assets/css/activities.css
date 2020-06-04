@@ -1,0 +1,181 @@
+.overlay {
+    background-color: #00000084;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+
+.demo-box {
+    background-color: rgba(255, 255, 255, 0.123);
+    height: 600px;
+    width: 400px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+.main-container {
+    height: calc(100% - 80px) !important;
+}
+
+.box.nobgc {
+    margin-bottom: 0em !important;
+}
+
+.activities-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.activities {
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+
+.activities {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.activities::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.card-nav-arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.card-nav-arrows .nav-left-arrow:hover,
+.card-nav-arrows .nav-right-arrow:hover {
+    background-color: rgba(221, 74, 71, 1);
+    cursor: pointer;
+}
+
+.card-nav-arrows .nav-left-arrow {
+    margin: 0;
+    margin-left: 0.6em;
+}
+
+.card-nav-arrows .nav-right-arrow {
+    margin: 0;
+    margin-right: 0.6em;
+}
+
+.card-nav-arrows .nav-left-arrow,
+.card-nav-arrows .nav-right-arrow {
+    background-color: rgba(221, 74, 71, 0.9);
+    border: none;
+    border-radius: 15%;
+    color: rgba(236, 236, 236, 1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    height: 60px;
+    width: 80px;
+    padding: 1.75rem 0.25rem;
+    visibility: visible;
+    /* opacity: 1; */
+    z-index: 20;
+    transition: ease-in 200ms color,
+                ease-in 200ms background-color;
+}
+
+
+.card-nav-arrows .nav-left-arrow.brick-wall,
+.card-nav-arrows .nav-right-arrow.brick-wall {
+    cursor: not-allowed;
+    background-color: rgba(107, 61, 60, 0.9);
+    color: rgba(199, 199, 199, 0.9);
+    transition: ease-out 200ms color,
+                ease-out 200ms background-color;
+}
+
+.activity-link {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.activity-link::after {
+    /* border-radius: 0 0 8px 8px; */
+    background-color: transparent;
+    display: none;
+    height: 0;
+}
+
+.activity-link:last-child {
+    margin-right: 0 !important;
+}
+
+.activity-link:hover {
+    text-decoration: none;
+}
+
+.activity-link:hover > .activity-card .activity-title {
+    color: #DD4A47 !important;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 150ms color;
+}
+
+.activity-link .activity-card {
+    background-color: #ECECEC;
+    border-radius: 8px;
+    box-shadow: 5px 10px 7px #1b262ca0, 6px 11px 12px #1b262ca0;
+    height: 600px;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.activity-link .activity-card .activity-img-container {
+    height: 324px;
+    width: 100%;
+    margin-bottom: 2em;
+    overflow: hidden;
+}
+
+.activity-link .activity-card .activity-img-container #act-img.lazy {
+    background-image: url('./../img/img-placeholder.jpg') !important;
+}
+
+.activity-link .activity-card .activity-img-container .activity-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    transition: background-image ease-in 250ms;
+}
+
+.activity-link .activity-card .activity-title {
+    color: #0F4C81 !important;
+    margin: 0 1rem 1rem 1rem;
+    text-align: center;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 50ms color;
+}
+
+.activity-link .activity-card .activity-desc {
+    color: #222831 !important;
+    margin: 0 3em;
+    line-height: 160%;
+    letter-spacing: 0.8px;
+}

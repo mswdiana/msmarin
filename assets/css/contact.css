@@ -1,0 +1,98 @@
+.contacts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    position: relative;
+    width: 100%;
+}
+
+.contact {
+    background-color: #ECECEC;
+    border-radius: 8px;
+    box-shadow: 5px 10px 7px #1b262ca0, 6px 11px 12px #1b262ca0;
+    color: #0F4C81;
+    font-size: 1rem;
+    padding: 1em 2em;
+    margin-bottom: 4.5% !important;
+    height: 15em;
+    width: 500px;
+}
+
+.contact div {
+    width: 100%;
+}
+
+.contacts div .contact-title {
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.contacts .contact div div span.additional-info {
+    color: #0f4c81c9;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-left: 0.3rem;
+    vertical-align: text-top;
+}
+
+.contacts div .phone a,
+.contacts div .text a,
+.contacts div .email a,
+.contacts div .website a {
+    color: #0F4C81 !important;
+}
+
+.contacts div .phone a:hover,
+.contacts div .text a:hover,
+.contacts div .email a:hover,
+.contacts div .website a:hover {
+    color: #186BB4 !important;
+}
+
+.contacts div .phone a:after,
+.contacts div .text a:after,
+.contacts div .email a:after,
+.contacts div .website a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #186BB4 !important;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.contacts div .phone a:hover:after, 
+.contacts div .text a:hover:after,
+.contacts div .email a:hover:after,
+.contacts div .website a:hover:after { 
+    width: 100% !important; 
+    left: 0 !important; 
+}
+
+.contacts div .phone,
+.contacts div .text,
+.contacts div .email,
+.contacts div .website {
+    margin-bottom: 1em;
+}
+
+.contacts div .phone i,
+.contacts div .text i,
+.contacts div .email i,
+.contacts div .website i {
+    color: #0F4C81;
+    margin-right: 8px;
+}
+
+.contacts div .phone:hover > i,
+.contacts div .text:hover > i,
+.contacts div .email:hover > i,
+.contacts div .website:hover > i {
+    color: #186BB4;
+}

@@ -1,0 +1,952 @@
+@media only screen and (max-width: 1791px) {
+    .resources-container .resources {
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 1720px) {
+    .homepage.landing .homepage.box #c-item-1 {
+        padding: 2em 12em;
+    }
+}
+
+@media only screen and (max-width: 1670px) {
+    .homepage.landing .homepage.box #c-item-1 {
+        padding: 2em 10em;
+    }
+
+    .homepage.landing .homepage.box #c-item-2 .msg-container {
+        margin: 0 0.5em 0 5em;
+    }
+
+    .contact {
+        width: 450px;
+        flex-grow: 1;
+        margin-right: 2em;
+    }
+}
+
+@media only screen and (max-width: 1512px) {
+    .homepage.landing .homepage.box #c-item-1 {
+        padding: 2em 8em;
+    }
+
+    .homepage.landing .homepage.box #c-item-2 .msg-container {
+        margin: 0 0.5em 0 5em;
+    }
+
+    .homepage.landing .homepage.box #c-item-2 .msg-container .msg h2 {
+        font-size: 4.5em;
+    }
+}
+
+@media only screen and (max-width: 1376px) {
+    .homepage.landing .homepage.box #c-item-1 {
+        padding: 2em 6em;
+    }
+
+    .homepage.landing .homepage.box #c-item-2 .msg-container {
+        margin: 0 0.5em 0 3em;
+    }
+    
+    .bio-container .profile-img {
+        margin-right: 6em;
+        margin-left: 4em;
+    }
+
+    .contacts {
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacts .contact {
+        width: 100%;
+        margin: 0;
+        height: auto !important;
+    }
+}
+
+@media only screen and (max-width: 1355px) {
+    .resource-link:nth-child(2n) {
+        margin-right: 0em !important;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .homepage.landing .homepage.box {
+        padding: 4em 0 0 0;
+    }
+
+    .homepage.landing .homepage.box #c-item-1 {
+        padding: 2em 6em;
+    }
+
+    .homepage.landing .homepage.box #c-item-2 .msg-container {
+        margin: 0 0.5em 0 3em;
+    }
+    
+    .bio-container .profile-img {
+        margin-right: 5em;
+        margin-left: 0em;
+    }
+
+    .contacts {
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacts .contact {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .homepage.landing .homepage.box #c-item-2 .msg-container .msg h2 {
+        font-size: 3.8em;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .resource-container .page-title{
+        font-size: 6em;
+    }
+
+    .homepage.landing .homepage.box #c-item-1 {
+        padding: 2em 5em;
+    }
+
+    .homepage.landing .homepage.box #c-item-2 .msg-container {
+        margin: 0 0.5em 0 2.6em;
+    }
+
+    .homepage.landing .homepage.box #c-item-2 .msg-container .msg h2 {
+        font-size: 3em;
+    }
+    
+    .bio-container .profile-img {
+        margin-right: 6em;
+        margin-left: 4em;
+    }
+
+    .contacts {
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacts .contact {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .bio-container .profile-img {
+        margin-right: 5em;
+        margin-left: 2em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .bio-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bio-container .profile-img {
+        margin-bottom: 2em;
+        height: 20em;
+        width: 20em;
+    }
+
+    .bio-container .bio .b-body,
+    .bio-container .bio .b-footer {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar {
+        background-color: #1D262B !important;
+        background-image: none;
+    }
+
+    .navbar-toggler {
+        border-color: rgba(221, 73, 71, 0.85) !important;
+    }
+
+    .navbar-toggler .navbar-toggler-bars {
+        color: rgba(221, 73, 71, 0.85) !important;
+        font-size: 30px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .navbar-toggler:hover {
+        border-color: #DD4A47 !important;
+    }
+
+    .navbar-toggler .navbar-toggler-bars:hover  {
+        color: #DD4A47 !important;
+    }
+
+    .resource-container .page-title{
+        font-size: 4.6em;
+    }
+
+    .landing {
+        flex-flow: column nowrap;
+    }
+
+    .homepage.box {
+        flex-flow: nowrap column;
+        justify-content: flex-start;
+        padding: 4em 0 0 0;
+        width: 100%;
+    }
+
+    .homepage.box #c-item-1 {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .homepage.box #c-item-2 {
+        margin-top: 4em;
+        z-index: 100;
+    }
+
+    .homepage.box #c-item-2 .msg-container .msg h2:nth-child(2) {
+        line-height: 1.2em;
+    }
+
+    .homepage.box #c-item-2 .msg-container .cta {
+        margin-top: 3.5em;
+    }
+
+    .contacts .contact .contact-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .bio-container .profile-img {
+        margin-right: 4em;
+        margin-left: 1em;
+    }
+
+}
+
+@media only screen and (max-width: 925px) {
+    .resource-link {
+        margin-right: 0em !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .page-title {
+        font-size: 5em;
+    }
+
+    .bio-container {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .bio-container .profile-img {
+        margin-right: 0;
+        margin-left: 0;
+        margin: 0 0 3em 0;
+    }
+}
+
+@media only screen and (max-width: 676px) {
+    .page-title {
+        font-size: 3.6em !important;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .box.nobgc {
+        margin: 0 1.7em 4em 1.7em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .box.nobgc {
+        margin: 0 1.5em 1.5em 1.5em;
+    }
+}
+
+/* iPad */
+/* Landscape and Portrait */
+@media only screen
+and (min-device-width: 768px) 
+and (max-device-width: 1024px)  {
+    .page-title {
+        font-size: 4em !important;
+    }
+
+    .resource-link .resource-card {
+        height: 350px !important;
+        width: 300px;
+    }
+
+    .resource-link .resource-card .resource-img-container .resource-img {
+        height: 150px;
+    }
+    
+    .resource-link .resource-card .resource-details {
+        height: 200px;
+        bottom: 0;
+    }
+
+    .resource-link .resource-card .resource-details .resource-title {
+        font-size: 1.4rem;
+        margin: 1rem 0 0.5rem 0 !important;
+    }
+    
+    .resource-link .resource-card .resource-details .resource-desc {
+        font-size: 0.9rem;
+    }
+}
+
+/* iPad */
+/* Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1) {
+    .resources {
+        flex-flow: row wrap !important;
+        justify-content: center !important;
+    }
+    
+    .resource-link:nth-child(3n) {
+        margin-right: 0;
+    }
+    
+    .resource-link:last-child {
+        align-self: flex-start;
+    }
+    
+    .resource-link .resource-card {
+        width: 280px;
+    }
+    
+    .activity-card { 
+        height: 560px;
+    }
+    
+    .activity-img-container {
+        height: 280px;
+    }
+}
+
+/* iPad */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .resource-link:nth-child(n) {
+        margin-right: 1em !important;
+    }
+    .resource-link:nth-child(2n) {
+        margin-right: 0em !important;
+    }
+}
+
+/* iPhone X+ */
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    .design-container .blue-rectangle {
+        top: -5px !important;
+        left: 170px !important;
+    }
+
+    .page-title {
+        font-size: 2.8em !important;
+    }
+
+    .homepage.landing .homepage.box {
+        padding: 1em 0 0 0 !important;
+    }
+
+    .homepage.landing .homepage.box #c-item-2 .msg-container .msg h2 {
+        font-size: 2em;
+    }
+
+    .activity-card .activity-desc {
+        margin: 0 2rem !important;
+    }
+
+    .b-header .full-name {
+        font-size: 2.5em;
+    }
+
+    .b-header .job-title {
+        font-size: 1.087em !important;
+    }
+
+    .resource-container .page-title {
+        font-size: 2.3em !important;
+    }
+
+    .resources-container .resources .resource-link {
+        margin-right: 0;
+    }
+
+    .resources-container .resources .resource-link .resource-card {
+        height: 323px;
+        width: 327px;
+    }
+
+    .resources-container .resources .resource-link .resource-card .resource-img-container .resource-img {
+        height: 150px;
+    }
+
+    .resources-container .resources .resource-link .resource-card .resource-details {
+        bottom: 0;
+        height: 173px;
+    }
+    
+    .resources-container .resources .resource-link .resource-card .resource-details .resource-title {
+        font-size: 1.3rem;
+        margin: 0.8rem 0 0.5rem 0 !important;
+    }
+
+    .resources-container .resources .resource-link .resource-card .resource-details .resource-desc {
+        font-size: 0.7rem;
+    }
+}
+
+/* iPhone X+ */
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+    .homepage.landing .homepage.box #c-item-2 {
+        margin: 4em 0;
+    }
+
+    .resources-container .resources .resource-link {
+        margin-right: 1em;
+    }
+
+    .resource-link:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+    
+}
+
+/* iPhone x */
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+    .appointment-form {
+        padding: 2em 1em 1em 1em !important;
+    }
+
+    #bookingAvailabilityContainer {
+        width: 290px !important;
+    }
+
+    .widget_dd_section .widget_dd_styling {
+        width: 100% !important;
+    }
+
+    #bookingAvailabilityContainer .widget_dd_section select.widget_dd_selectbx {
+        width: 290px !important;
+        min-width: 290px !important;
+    }
+
+    .widget_optns_cont {
+        width: 100% !important;
+    }
+
+    .widget_dd_section .widget_dd_styling select {
+        width: 100% !important;
+    }
+
+    .widget_dd_section div.widget_dd_section_heading {
+        width: 290px !important;
+    }
+
+    .widget_dd_section_heading.widget_dd_section_heading_with .resetall_widget_dd {
+        right: -15px !important;
+    }
+
+    #dp.dp-widget-calendar-container {
+        max-width: 100% !important;
+    }
+
+    .dp-widget-calendar-container table.jCalendar {
+        width: 100% !important;
+    }
+
+    #dp.dp-widget-calendar-container .dp-nav-prev,
+    #dp.dp-widget-calendar-container .dp-nav-next {
+        top: 3px !important;
+    }
+
+    #bookingAvailabilityContainer table th.weekday, 
+    #bookingAvailabilityContainer table th.weekend {
+        padding: 0 5px !important;
+    }
+
+    .contacts .contact .contact-title {
+        font-size: 1.3rem;
+    }
+
+    .contacts div .phone,
+    .contacts div .text,
+    .contacts div .email,
+    .contacts div .website,
+    .contacts div .phone > *,
+    .contacts div .text > *,
+    .contacts div .email > *,
+    .contacts div .website > * {
+        font-size: 0.8rem;
+    }
+}
+
+/* iPhone 6+, 7+, and 8+ */
+/* Landscape and Portrait*/
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+    .design-container .blue-rectangle {
+        top: -5px !important;
+        left: 170px !important;
+    }
+
+    .homepage.box #c-item-2 {
+        margin: 2rem 0 0 0;
+    }
+
+    .activity-card {
+        width: 325px !important;
+    }
+
+    .page-title {
+        font-size: 3em !important;
+    }
+
+    .appointment.main-container {
+        overflow-y: scroll !important;
+    }
+
+    .appointment-form {
+        margin: 0 0 2em 0 !important;
+    }
+
+    .activity-link .activity-card {
+        height: 550px;
+    }
+}
+
+/* iPhone 6+, 7+, and 8+ */
+/* Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+    .appointment-form {
+        padding: 2em 2em 1em 2em !important;
+    }
+
+    #bookingAvailabilityContainer {
+        width: 320px !important;
+    }
+
+    .widget_dd_section .widget_dd_styling {
+        width: 100% !important;
+    }
+
+    #bookingAvailabilityContainer .widget_dd_section select.widget_dd_selectbx {
+        width: 320px !important;
+        min-width: 320px !important;
+    }
+
+    .widget_optns_cont {
+        width: 100% !important;
+    }
+
+    .widget_dd_section .widget_dd_styling select {
+        width: 100% !important;
+    }
+
+    .widget_dd_section div.widget_dd_section_heading {
+        width: 320px !important;
+    }
+
+    .widget_dd_section_heading.widget_dd_section_heading_with .resetall_widget_dd {
+        right: -15px !important;
+    }
+
+    #dp.dp-widget-calendar-container {
+        max-width: 100% !important;
+    }
+
+    .dp-widget-calendar-container table.jCalendar {
+        width: 100% !important;
+    }
+
+    #dp.dp-widget-calendar-container .dp-nav-prev,
+    #dp.dp-widget-calendar-container .dp-nav-next {
+        top: 3px !important;
+    }
+
+    #bookingAvailabilityContainer table td, #bookingAvailabilityContainer table th {
+        padding: 11px !important;
+    }
+
+    #dp.dp-widget-calendar-container table.jCalendar td {
+        height: 40px !important;
+    }
+    
+
+    #bookingAvailabilityContainer .jBA-tblwrap, .bookingAvailabilityContainer .jBA-tblwrap {
+        max-width: 320px !important;
+    }
+
+    .widget_dd_section_heading {
+        width: 320px !important;
+    }
+
+    .activity-card {
+        height: 400px !important;
+    }
+
+    .activity-card .activity-img-container {
+        height: 200px !important;
+    }
+    
+    .activity-card .activity-title {
+        font-size: 1.5em !important;
+    }
+
+    .resource-link:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+
+    .resources-container .resources .resource-link .resource-card {
+        width: 296px;
+    }
+
+}
+
+/* iPhone 6+, 7+, and 8+ */
+/* Portrait */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+    .appointment-form {
+        padding: 2.5em 2em 1em 2em !important;
+    }
+
+    .contacts div .phone,
+    .contacts div .text,
+    .contacts div .email,
+    .contacts div .website,
+    .contacts div .phone > *,
+    .contacts div .text > *,
+    .contacts div .email > *,
+    .contacts div .website > * {
+        font-size: 0.9rem;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) { 
+    .design-container .blue-rectangle {
+        height: 360px !important;
+        width: 1500px !important;
+        top: -3px;
+        left: -80px;
+    }
+
+    .page-title {
+        font-size: 2.4em !important;
+    }
+
+    .homepage.landing .homepage.box {
+        padding: 0 !important;
+    }
+
+    .homepage.landing .homepage.landing .homepage.box {
+        padding: 1em 0 0 0 !important;
+    }
+
+    .homepage.landing .homepage.box #c-item-1 .bg-img{
+        height: 15em !important;
+        width: 15em !important;
+    }
+
+    .homepage.landing .homepage.box #c-item-2 {
+        margin: 3.5rem 0 2rem 0 !important;
+    }
+
+    .homepage.landing .homepage.box #c-item-2 .msg-container .msg h2 {
+        font-size: 2em;
+    }
+
+    .activity-link .activity-card {
+        height: 480px !important;
+        width: 280px !important;
+    }
+
+    .activity-link .activity-card .activity-img-container {
+        height: 280px !important;
+    }
+
+    .activity-link .activity-card .activity-title {
+        font-size: 1.4rem !important;
+    }
+
+    .activity-link .activity-card .activity-desc {
+        font-size: 0.9rem !important;
+        margin: 0 2rem !important;
+    }
+
+    .b-header .full-name {
+        font-size: 2.5em;
+    }
+
+    .b-header .job-title {
+        font-size: 1.087em !important;
+    }
+
+    .resource-container .page-title {
+        font-size: 2.3em !important;
+    }
+
+    .resources-container .resources .resource-link {
+        margin-right: 0;
+    }
+
+    .resources-container .resources .resource-link .resource-card {
+        height: 323px;
+        width: 327px;
+    }
+
+    .resources-container .resources .resource-link .resource-card .resource-img-container .resource-img {
+        height: 150px;
+    }
+
+    .resources-container .resources .resource-link .resource-card .resource-details {
+        bottom: 0;
+        height: 173px;
+    }
+    
+    .resources-container .resources .resource-link .resource-card .resource-details .resource-title {
+        font-size: 1.3rem;
+        margin: 0.8rem 0 0.5rem 0 !important;
+    }
+
+    .resources-container .resources .resource-link .resource-card .resource-details .resource-desc {
+        font-size: 0.7rem;
+    }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .appointment-form {
+        padding: 2em 1em 1em 1em !important;
+    }
+
+    #bookingAvailabilityContainer {
+        width: 290px !important;
+    }
+
+    .widget_dd_section .widget_dd_styling {
+        width: 100% !important;
+    }
+
+    #bookingAvailabilityContainer .widget_dd_section select.widget_dd_selectbx {
+        width: 290px !important;
+        min-width: 290px !important;
+    }
+
+    .widget_optns_cont {
+        width: 100% !important;
+    }
+
+    .widget_dd_section .widget_dd_styling select {
+        width: 100% !important;
+    }
+
+    .widget_dd_section div.widget_dd_section_heading {
+        width: 290px !important;
+    }
+
+    .widget_dd_section_heading.widget_dd_section_heading_with .resetall_widget_dd {
+        right: -15px !important;
+    }
+
+    #dp.dp-widget-calendar-container {
+        max-width: 100% !important;
+    }
+
+    .dp-widget-calendar-container table.jCalendar {
+        width: 100% !important;
+    }
+
+    #dp.dp-widget-calendar-container .dp-nav-prev,
+    #dp.dp-widget-calendar-container .dp-nav-next {
+        top: 3px !important;
+    }
+
+    #bookingAvailabilityContainer table th.weekday, 
+    #bookingAvailabilityContainer table th.weekend {
+        padding: 0 5px !important;
+    }
+
+    .contacts .contact .contact-title {
+        font-size: 1.3rem;
+    }
+
+    .contacts div .phone,
+    .contacts div .text,
+    .contacts div .email,
+    .contacts div .website,
+    .contacts div .phone > *,
+    .contacts div .text > *,
+    .contacts div .email > *,
+    .contacts div .website > * {
+        font-size: 0.8rem;
+    }
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+    .resources-container .resources .resource-link {
+        margin-right: 1em;
+    }
+
+    .resource-link:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+    .resources-container .resources .resource-link .resource-card {
+        height: 330px;
+        width: 261.5px;
+    }
+
+    .resources-container .resources .resource-link .resource-card .resource-details {
+        height: 180px;
+    }
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .design-container .blue-rectangle {
+        height: 360px !important;
+        width: 1500px !important;
+        top: -170px;
+        left: 27px;
+    }
+
+    .modal .modal-dialog .modal-content .modal-body .message,
+    .modal .modal-dialog .modal-content .modal-body .message a,
+    .modal .modal-dialog .modal-content .modal-footer button {
+        font-size: 0.9rem;
+    }
+
+    .page-title {
+        font-size: 2.4em !important;
+    }
+
+    .homepage.landing .homepage.box {
+        padding: 0 !important;
+    }
+
+    .homepage.landing .homepage.landing .homepage.box {
+        padding: 1em 0 0 0 !important;
+    }
+
+    .homepage.landing .homepage.box #c-item-1 {
+        padding: 0 !important;
+    }
+
+    .homepage.landing .homepage.box #c-item-1 .bg-img{
+        height: 12em !important;
+        width: 12em !important;
+    }
+
+    .homepage.landing .homepage.box #c-item-2 {
+        margin: 3rem 0 2rem 0 !important;
+    }
+
+    .homepage.landing .homepage.box #c-item-2 .msg-container .msg h2 {
+        font-size: 2em;
+    }
+
+    .msg h2:nth-child(2) {
+        margin-top: 0.5rem !important;
+    }
+
+    .navbar-toggler {
+        padding: .25rem 0.50rem;
+        font-size: 1rem;
+        line-height: 1;
+    }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    .modal {
+        overflow-y: scroll;
+    }
+}
