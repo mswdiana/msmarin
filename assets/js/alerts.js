@@ -154,8 +154,8 @@ function render() {
         </div>
     </div>`;
 
-    bod.firstChild.parentNode.insertBefore(mod, bod.firstChild);
     window.setTimeout(() => {
+        bod.firstChild.parentNode.insertBefore(mod, bod.firstChild);
         mainCont.classList.add("blur");
         navBar.classList.add("blur");
         mod.classList.add("show");
@@ -174,7 +174,7 @@ function render() {
             navBar.classList.remove("blur");
             window.setTimeout(() => {mod.remove()}, 400);
         });
-    }, 800);
+    }, 1500);
 
     window.setTimeout(() => {
         document.querySelectorAll(".more-action").forEach(elem => {

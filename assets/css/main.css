@@ -155,7 +155,7 @@ body {
 }
 
 .bg-img {
-    background-image: url("../img/eagle.jpg");
+    background-image: url("../img/eagle.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

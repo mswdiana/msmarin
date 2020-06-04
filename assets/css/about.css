@@ -12,7 +12,7 @@
 }
 
 .profile-img {
-    background-image: url("../img/headshots/headshot.jpg");
+    background-image: url("../img/headshots/headshot.jpg"), url("../img/img-placeholder.jpg");
     background-position: 0 40%;
     background-repeat: no-repeat;
     background-size: cover;

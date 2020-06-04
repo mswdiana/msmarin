@@ -39,19 +39,19 @@ const resources = {
     },
     7: {
         url: "https://healgrief.org/virtual-support/",
-        fileName: `${filePath}image_name_here`,
+        fileName: `${filePath}grief.jpg`,
         title: "Heal Grief",
         desc: "Grief is often isolating. But it doesn’t have to be anymore! Regardless of your ability to find local supportive services, HealGrief has made it possible to connect on a whole new level. It’s time to be heard, feel understood and connect with others who understand your journey."
     },
     8: {
         url: "https://centers.rainn.org/",
-        fileName: `${filePath}image_name_here`,
+        fileName: `${filePath}two-woman-chatting.jpg`,
         title: "Rape, Abuse & Incest National Network",
         desc: "Sexual violence can have psychological, emotional, and physical effects on a survivor. These effects aren’t always easy to deal with, but with the right help and support they can be managed."
     },
     number_here: {
         url: "https://www.thehotline.org/help/",
-        fileName: `${filePath}image_name_here`,
+        fileName: `${filePath}red-phone.jpg`,
         title: "The Hotline",
         desc: "Operating around the clock, seven days a week, confidential and free of cost, the National Domestic Violence Hotline provides lifesaving tools and immediate support to enable victims to find safety and live lives free of abuse."
     },
