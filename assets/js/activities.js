@@ -172,7 +172,6 @@ $(document).ready(function(){
         activities.addEventListener("scroll", (e) => {
             let maxScrollLeft = activities.scrollWidth - activities.clientWidth,
                 horizScroll = e.target.scrollLeft;
-            console.log(`c:${horizScroll} m:${maxScrollLeft}`)
             if(horizScroll > 0 && horizScroll < maxScrollLeft) {
                 leftNavArrow.classList.remove("brick-wall");
                 rightNavArrow.classList.remove("brick-wall");
